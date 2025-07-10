@@ -1,0 +1,30 @@
+.sort-header {
+  display: flex;
+  justify-content: space-between;
+
+  i {
+    cursor: pointer;
+  }
+}
+
+.add-new {
+  // display: flex;
+  align-self: center;
+  justify-content: space-between;
+
+  .group-btn {
+    display: flex;
+    gap: 10px {
+      padding: 0 2px;
+    }
+  }
+}
+
+.customize-table {
+  width: inherit;
+  overflow-x: auto;
+}
+
+.pagination {
+  justify-content: center;
+}
